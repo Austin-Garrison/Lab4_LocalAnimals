@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#464646"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/nearme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#AEF359"
+        android:text="Find Animals Near Me"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/faraway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#028A0F"
+        android:layout_marginBottom="20dp"
+        android:text="Find Animals Far Away"
+        android:textSize="22dp"/>
+
+
+    <Button
+        android:id="@+id/lion"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="Lion"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/bird"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="bird"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/snake_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp" />
+
+
+</LinearLayout>
